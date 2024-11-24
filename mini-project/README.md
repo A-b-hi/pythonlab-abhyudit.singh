@@ -1,50 +1,50 @@
-Library Management System
+# Youtube video download
 
-## Project Purpose  
-The purpose of the Library Management System is to simplify the process of managing books, library members, and borrowing/returning activities. This system is designed to reduce manual effort, improve efficiency, and provide an intuitive interface for library staff and members to manage resources effectively.
+<!--An image is an illustration for your project, the tip here is using your sense of humour as much as you can :D
 
----
+You can copy paste my markdown photo insert as following:
+<p align="center">
+<img src="your-source-is-here" width=40% height=40%>
+-->
 
-## Features  
-The Library Management System will include the following features:
+## 🛠️ Description
+Introduction:
+A Python YouTube video downloader is a program that allows you to download YouTube videos using the Python programming language. This documentation will guide you through the steps required to install and use a Python YouTube video downloader.
 
-1. Book Management  
-   - Add new books to the library database.  
-   - Update and delete existing book records.  
-   - Search for books by title, author, or genre.
+Step 1: Installing Required Libraries
+To begin, you need to install the required libraries for the Python YouTube video downloader. Run the following command to install the "yt-dlp" library:
 
-2. Member Management 
-   - Register new library members with their details.  
-   - Update and delete member records.  
-   - View member details and borrowing history.
+pip install yt-dlp
 
-3. Borrowing and Returning  
-   - Issue books to members and update due dates.  
-   - Mark books as returned and calculate any applicable fines.  
-   - Keep track of borrowed books and their status.
+Step 2: Importing Libraries
 
-4. Search Functionality  
-   - Search for books and members using filters and keywords.  
+Step 3: Running the Script
+Save the above code as a Python script and run it. The script will download the video and save it to the current directory.
 
-5. Reporting  
-   - Generate reports such as the list of borrowed books, overdue books, and active members.
+Conclusion:
+In conclusion, a Python YouTube video downloader is a simple program that can be used to download YouTube videos using the Python programming language. By following the steps outlined in this documentation, you should now be able to install and use a Python YouTube video downloader to download your favorite videos from YouTube.
 
-Expected Outcomes 
-By the end of this project, the Library Management System will:  
-1. Automate manual processes, saving time for library staff.  
-2. Provide an organized and efficient way to manage library operations.  
-3. Ensure data accuracy and prevent the loss of information.  
-4. Enhance the user experience for library members through an easy-to-use interface.  
-5. Serve as a foundational system that can be expanded with advanced features in the future.
+## ⚙️ Languages or Frameworks Used
 
-Technology Stack  
-This project will be implemented using the following technologies:  
-- Programming Language: Python  
-- Database: SQLite for managing and storing library records.  
-- User Interface: Command-line-based interface, with potential for future GUI development using libraries like Tkinter.
+<!--Remove the below lines and add yours -->
 
-Project Scope
-This mini-project focuses on building the core functionalities of a Library Management System. Future improvements could include:  
-1. A graphical user interface for easier interaction.  
-2. Cloud integration for remote access to the system.  
-3. Support for mobile platforms.
+The program was created with Python3 and yt-dlp.
+
+use this to install yt-dlp
+`python -m pip install --upgrade yt-dlp`
+
+<!-- Modules required to be able to use the script successfully
+and how to install them.
+(If there are a lot of them, including a `requirements.txt` file will work better.) -->
+
+## 🌟 How to run
+
+<!--Remove the below lines and add yours -->
+
+`python ./main.py`
+
+## 📺 Demo
+<p align="center">
+<img
+src="https://github.com/ndleah/python-mini-project/blob/main/IMG/Youtube_video_download.png"
+width=70% height=70%>

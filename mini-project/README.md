@@ -1,4 +1,4 @@
-# Youtube video download
+# Youtube video downloader
 
 <!--An image is an illustration for your project, the tip here is using your sense of humour as much as you can :D
 
